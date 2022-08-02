@@ -14,6 +14,7 @@ user.post('/signin', userContorl.signin);
 user.post('/validate', userContorl.validate);
 // 获取用户信息
 user.get('/userinfo', userContorl.getuserinfo);
+user.get("/creatuser", userContorl.creatUser);
 // 修改密码
 user.post('/resetpassword', userContorl.resetpassword);
 module.exports = user;
